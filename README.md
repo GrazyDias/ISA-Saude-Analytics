@@ -222,6 +222,17 @@ Dashboard desenvolvido no Databricks para análise de indicadores financeiros e 
 
 ![Dashboard Executivo ISA Saúde](databricks/dashboard_financeiro.png)
 
+### Validação funcional dos filtros
+
+Foram realizados testes de filtragem por modalidade e operadora,
+verificando a atualização dos indicadores financeiros e das
+simulações de cenários.
+
+A imagem abaixo apresenta o teste da modalidade Internação
+Domiciliar (ID).
+
+![Teste do filtro de modalidade ID](databricks/teste_id.png)
+
 ---
 
 **Projeto desenvolvido para demonstração de competências em Business Intelligence, Analytics e Inteligência em Saúde.**
