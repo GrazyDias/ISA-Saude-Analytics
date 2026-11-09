@@ -157,5 +157,35 @@ ISA_Saude_Case/
 │   ├── 04_grafico_qualidade.py
 │   ├── 05_tratamento_dados.py
 │   ├── 06_grafico_glosas.py
-│   ├── 
+│   ├── 07_criar_banco_sql.py
+│   ├── 08_analise_sql.py
+│   └── 09_grafico_financeiro.py
+├── ISA_Saude_Dashboard.pbix
+├── .gitignore
+└── README.md
+```
 
+## 11. Competências demonstradas
+
+- Business Intelligence e Data Analytics.
+- Data Quality e preparação de dados.
+- SQL e modelagem analítica.
+- Desenvolvimento de indicadores financeiros.
+- Visualização e comunicação executiva.
+- Simulação de cenários e análise de sensibilidade.
+- Validação metodológica e rastreabilidade.
+- Pensamento analítico orientado à tomada de decisão.
+
+## 12. Próximas evoluções
+
+- Documentação e exportação do notebook Databricks.
+- Inclusão de imagens dos dashboards.
+- Implementação e validação de filtros interativos.
+- Criação de um módulo demonstrativo de CRM com HubSpot e dados sintéticos.
+- Ampliação da documentação de arquitetura e regras de negócio.
+
+---
+
+**Projeto desenvolvido para demonstração de competências em Business Intelligence, Analytics e Inteligência em Saúde.**
+
+*Todos os dados utilizados são fictícios.*
