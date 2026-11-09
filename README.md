@@ -233,6 +233,59 @@ Domiciliar (ID).
 
 ![Teste do filtro de modalidade ID](databricks/teste_id.png)
 
+
+## 14. Qualidade e Governança dos Dados
+
+### 14.1. Qualidade da base de dados
+
+O projeto utiliza uma base integralmente fictícia, composta por 910 registros de atendimentos, para demonstrar técnicas de análise exploratória, tratamento, modelagem e avaliação financeira.
+
+Durante a análise de qualidade, foram identificados registros com informações de custos ausentes.
+
+| Indicador | Resultado |
+|---|---:|
+| Total de registros | 910 |
+| Registros com custo conhecido | 865 |
+| Registros com custo ausente | 45 |
+| Percentual de custos ausentes | 4,95% |
+
+### 14.2. Regras de negócio
+
+Para preservar a consistência das análises financeiras, foram adotadas as seguintes regras:
+
+- Os registros sem custo conhecido não participam dos cálculos de margem financeira.
+- A receita líquida apresentada nos indicadores financeiros considera exclusivamente registros com custo conhecido.
+- A margem financeira é calculada pela diferença entre receita líquida e custo total.
+- A margem percentual é calculada pela divisão da margem financeira pela receita líquida, multiplicada por 100.
+- A margem percentual consolidada é recalculada a partir dos valores agregados, evitando médias simples de percentuais.
+
+### 14.3. Simulação de cenários
+
+Foram definidos três cenários hipotéticos para avaliar a sensibilidade financeira das modalidades de atendimento.
+
+| Cenário | Receita | Custo |
+|---|---:|---:|
+| Base | Sem alteração | Sem alteração |
+| Otimista | +5% | −5% |
+| Pressão | −5% | +10% |
+
+As simulações representam exercícios de análise de sensibilidade, não previsões estatísticas ou projeções financeiras reais.
+
+### 14.4. Rastreabilidade e validação
+
+O projeto contempla:
+
+- Tratamento e análise exploratória com Python.
+- Consultas e agregações com SQL.
+- Processamento analítico com PySpark.
+- Visualização e simulação de cenários no Databricks.
+- Validação funcional de filtros interativos.
+- Versionamento e documentação técnica com Git e GitHub.
+
+**Limitação metodológica:** Os indicadores de margem representam apenas registros com custo conhecido. Portanto, não devem ser interpretados como resultado financeiro integral de todos os atendimentos.
+
+**Todos os dados utilizados são fictícios e destinados exclusivamente à demonstração de competências técnicas.**
+
 ---
 
 **Projeto desenvolvido para demonstração de competências em Business Intelligence, Analytics e Inteligência em Saúde.**
