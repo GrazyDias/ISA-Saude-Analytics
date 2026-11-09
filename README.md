@@ -198,6 +198,30 @@ ISA_Saude_Case/
 - Criação de um módulo demonstrativo de CRM com HubSpot e dados sintéticos.
 - Ampliação da documentação de arquitetura e regras de negócio.
 
+## 13. ## Dashboard Executivo — Databricks
+
+### Inteligência Financeira e Simulação de Cenários
+
+Dashboard desenvolvido no Databricks para análise de indicadores financeiros e simulação de cenários em serviços de atenção domiciliar.
+
+**Principais funcionalidades:**
+- Monitoramento de receita líquida, custos conhecidos e margem financeira.
+- Análise da margem financeira por modalidade de atendimento.
+- Simulação de três cenários: Base, Otimista e Pressão.
+- Avaliação do impacto percentual das variações de receita e custos.
+- Filtros interativos por modalidade, operadora, região e período.
+- Identificação de oportunidades de eficiência operacional e gestão financeira.
+
+**Tecnologias:** Python, PySpark, SQL, Databricks e visualização de dados.
+
+**Metodologia:** Os cenários são simulações hipotéticas de sensibilidade financeira, não previsões estatísticas.
+
+**Observação:** Todos os dados utilizados são fictícios, exclusivamente para fins educacionais e demonstração de competências técnicas.
+
+### Visualização do dashboard
+
+![Dashboard Executivo ISA Saúde](databricks/dashboard_financeiro.png)
+
 ---
 
 **Projeto desenvolvido para demonstração de competências em Business Intelligence, Analytics e Inteligência em Saúde.**
