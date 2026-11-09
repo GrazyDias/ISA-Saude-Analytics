@@ -1,0 +1,9 @@
+﻿ID Paciente,Operadora,Modalidade,Patologia Principal,Região,CFS,Data Implantação,Data Alta,Status,Dias Atendimento,Diária (R$),OPME (R$),Receita Bruta (R$),Glosa (R$),Custo (R$),Reinternação,SLA Aceite (dias)
+PAC-00645,Amparo Saúde,Atendimento por Visitas,Oncológico (paliativo),ABC,5,2025-12-05,2026-01-19,Alta,45,149,0,6705,303.21,,Não,2.0
+PAC-00254,Vitalis Saúde,Internação Domiciliar (ID),AVC,Capital,6,2025-12-13,2026-06-04,Alta,173,529,0,91517,6015.6,74104.28,Não,2.0
+PAC-00155,Bem-Estar Seguros,Atendimento por Visitas,DPOC,Interior,6,2025-08-16,2025-10-23,Alta,68,162,0,11016,2567.87,6185.95,Não,10.0
+PAC-00032,Bem-Estar Seguros,Assistência Domiciliar (AD),Pé diabético,ABC,5,2026-06-03,2026-09-07,Alta,96,449,0,43104,9813.05,23767.31,Não,3.0
+PAC-00808,Rede Cuidado,Atendimento por Visitas,Pós-operatório,Capital,4,2025-11-12,2025-12-03,Alta,21,96,0,2016,170.45,1065.87,Não,3.0
+PAC-00380,Saúde Plena,Atendimento por Visitas,Pós-operatório,ABC,4,2026-05-10,,Internação,18,168,0,3024,330.34,1580.07,Não,3.0
+PAC-00157,Bem-Estar Seguros,Assistência Domiciliar (AD),DPOC,Capital,7,2025-10-29,2025-11-17,Alta,19,425,0,8075,2136.3,4971.9,Não,4.0
+PAC-00004,Bem-Estar Seguros,Atendimento por Visitas,Insuficiência Cardíaca,Interior,4,2026-03-09,2026-05-02,Alta,54,120,0,6480,884.53,3237.72,Não,

@@ -1,0 +1,20 @@
+
+# Ambiente virtual
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Credenciais e segredos
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Arquivos temporários
+.ipynb_checkpoints/
+.vscode/
+.DS_Store
+Thumbs.db
+
