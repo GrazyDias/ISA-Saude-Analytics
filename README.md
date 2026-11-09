@@ -127,6 +127,20 @@ Painel executivo contendo:
 
 *As imagens e o notebook exportado do Databricks serão incorporados à documentação do projeto.*
 
+
+### Dashboard Executivo — Databricks
+
+Painel desenvolvido para análise de performance financeira,
+margens e simulação de cenários em assistência domiciliar.
+
+![Dashboard Executivo ISA Saúde](databricks/dashboard_financeiro.png)
+
+**Nota metodológica:** os indicadores financeiros consideram
+exclusivamente registros com custos conhecidos.
+
+**Base de dados:** 100% fictícia.
+
+
 ## 9. Validação e auditoria metodológica
 
 Foi realizada uma auditoria técnica dos indicadores financeiros, incluindo:
